@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Titillium Web', sans-serif;
+}
+.container{
+    padding-left: 8%;
+    padding-right: 8%;
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)) ,url(stad.jpg);
+    height: 100vh;
+    width: 100%; 
+    background-position: center;
+    background-size: cover;
+}
+p{
+    font-size: 10px;
+    color: #fff;
+    line-height: 20px;
+}
+.btn{
+    padding: 12px 28px;
+    font-size: 12px;
+    font-weight: 700;
+    margin-top: 30px;
+    cursor: pointer;
+    color: #000;
+    background-color: #fff;
+    border-radius: 20px;
+    border:1px solid #ff6e00;
+    text-decoration: none;
+    transition: ease 0.5s;
+}
+.btn:hover{
+    color: #fff;
+    background-color: #000;
+    border-color: #fff;
+}
+.navbar{
+    height: 12%;
+    display: flex;
+    float: right;
+    align-items: center;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+}
+nav ul li{
+    margin-left: 20px;
+}
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    transition: ease 0.5s;
+}
+nav ul li a:hover{
+    color: #ff6e00
+}
+.logo img{
+    height: 4rem;
+    margin-right: 75rem;
+}
+.row{
+    display: flex;
+    height: 110%;
+    align-items: center;
+    column-gap: 100px;
+}
+.col{
+    flex: 1;   
+}
+h1 {
+    color: #fff;
+    font-size: 100px;
+}
+.desc{
+    font-size: 16px;
+}
+.cards{
+    display: flex;
+    margin-left: 150px;
+}
+.card{
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    background-position: center;
+    background-size: cover;
+    cursor: pointer;
+    position: relative;
+    border: 1px solid #ff6e00;
+    margin: 10px 15px;
+    transition: ease 0.5s
+}
+.card:hover{
+    transform: translateY(-10px);
+    border-color: #fff;
+}
+.card .card-head{
+    background-color: rgba(0,0,0,0.7);
+    color: #fff;
+    border-radius: 6px;
+}
+.card .card-buttom{
+    position: absolute;
+    bottom: 26px;  
+}
+.card.card1{
+    background-image: url(f1.jpg);
+}
+.card.card2{
+    background-image: url(f2.jpg);
+}
+.card.card3{
+    background-image: url(f4.jpg);
+}
+.card.card4{
+    background-image: url(f3.jpg);
+}
